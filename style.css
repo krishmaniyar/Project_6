@@ -109,6 +109,24 @@ button
 
 input
 {
+    border: 2px solid #000;
+    border-radius: 5px;
     margin-bottom: 5%;
     width: 50%;
+}
+
+input:invalid 
+{
+    border-color: red;
+}
+
+input:valid
+{
+    border-color: green;
+}
+
+input:focus
+{
+    border-color: blue;
+    box-shadow: 2px 2px;
 }
