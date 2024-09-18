@@ -130,3 +130,9 @@ input:focus
     border-color: blue;
     box-shadow: 2px 2px;
 }
+
+#invalid
+{
+    padding: 0%;
+    margin: 0%;
+}

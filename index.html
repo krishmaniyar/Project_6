@@ -36,44 +36,46 @@
                 <p style="margin-top: 1%; padding-left: 5%;">
                     Let's do this!
                 </p>
-                <form action="#" method="get" style="font-size: 0.6em; padding-left: 5%;">
+                <form id="detail" method="get" style="font-size: 0.6em; padding-left: 5%;">
                     <div class="flex1">
                         <div class="flex1_left">
-                            <label for="first_name">FIRST NAME</label>
+                            <label for="first_name">*FIRST NAME</label>
                             <br>
-                            <input type="text" name="first_name">
+                            <input type="text" id="first_name" name="details" placeholder="Krish" required>
                             <br>
                             <label for="email">EMAIL</label>
                             <br>
-                            <input type="email" name="email">
+                            <input type="email" id="email" placeholder="abc@gmail.com" name="details">
                             <br>
                             <label for="password">PASSWORD</label>
                             <br>
-                            <input type="password" name="password">
+                            <input type="password" id="password" name="details">
                         </div>
                         <div class="flex1_right">
-                            <label for="last_name">LAST NAME</label>
+                            <label for="last_name">*LAST NAME</label>
                             <br>
-                            <input type="text" name="last_name">
+                            <input type="text" id="last_name" name="details" placeholder="Maniyar" required>
                             <br>
                             <label for="phoneno">PHONE NUMBER</label>
                             <br>
-                            <input type="password" name="password">
+                            <input type="number" id="phoneno" name="details">
                             <br>
                             <label for="confirm_password">CONFIRM PASSWORD</label>
                             <br>
-                            <input type="password" name="confirm_password">
+                            <input type="password" id="confirm_password" name="details" style="margin-bottom: 0%;">
+                            <p id="invalid"></p>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="footer">
-                <button type="submit">Create Account</button>
+                <button type="submit" name="details" onclick="inp()">Create Account</button>
                 <p style="padding-left: 5%;">Already have a account?
-                    <a href="" style="color: #596D48; text-decoration: none;">Log in</a>
+                    <a href="https://krishmaniyar.github.io/Project_6/" style="color: #596D48; text-decoration: none;">Log in</a>
                 </p>
             </div>
         </div>
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>
