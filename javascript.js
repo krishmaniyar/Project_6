@@ -10,7 +10,7 @@ function inp()
     {
         document.getElementById("confirm_password").value = "";
         console.log("invalid input");
-        document.getElementById("invalid").innerText = "invalid input";
+        document.getElementById("invalid").innerText = "Invalid Input";
     }
     else
     {
