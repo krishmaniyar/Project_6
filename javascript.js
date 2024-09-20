@@ -16,5 +16,6 @@ function inp()
     {
         console.log(fn + "\n" + ln + "\n" + email + "\n" + password + "\n" + confirm_password + "\n" + phoneno);
         document.getElementById("detail").reset();
+        document.getElementById("invalid").innerText = "";
     }
 }
